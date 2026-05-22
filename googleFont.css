@@ -1,0 +1,50 @@
+@font-face{
+    src: url(fonts/Roboto-Light.ttf);
+    font-family: Roboto-Light;
+}
+@font-face{
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: OpenSans;
+}
+h1{
+    text-shadow: 3px 3px 5px palevioletred, -3px -3px 5px rgb(62, 14, 30);
+    border-style: none;
+    border-width: 3px;
+    border-color: hsl(296, 100%, 25%);
+    border-radius: 100px;  
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(227, 221, 209);
+    box-shadow: 3px 3px 5px;
+    margin: auto;
+}
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: hsl(350, 100%, 88%);
+    margin-left: auto;
+}
+#box2{
+    background-color: #dda0dd;
+    margin: 100px;
+}
+p{
+    border-bottom: 3px solid rgb(255, 0, 0);
+    border-top: 3px solid rgb(157, 52, 70);
+    border-left: 3px dashed green;
+    border-right: 3px dashed rgb(204, 95, 200);
+    font-family: OpenSans, "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}

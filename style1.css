@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(246, 248, 249);
+}
+.odd{
+    color:#0c0c0c;
+}  
+#p2{
+    color: hsl(179, 32%, 40%);
+}
+#p4{
+    color: hsl(62, 54%, 43%);
+}
+h1{
+    font-family: verdana, arial;
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}

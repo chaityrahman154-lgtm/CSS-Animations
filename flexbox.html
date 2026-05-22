@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox.css">
+    <script src="https://kit.fontawesome.com/aedaeda30a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="icons">
+        <a href>
+            <i class="fa-solid fa-house fa-2xl"></i>
+        </a>
+        <a href="https://twitter.com">
+            <i class="fa-brands fa-twitter fa-2xl"></i>
+        </a>
+        <a href="https://youtube.com">
+            <i class="fa-brands fa-youtube fa-2xl"></i>
+        </a>
+        <a href="https://tiktok.com">
+            <i class="fa-brands fa-tiktok fa-2xl"></i>
+        </a>
+    </div>
+    <br>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>
+
+<!--Flexbox
+To add margin between each of the icons we can use margin-right
+We can change flex-drection: column, row-reverse, column-reverse
+justify-content property sets the alignment on the main axis
+we can set it to flex-end, center, space-between, space-around, space-evenly
+To access cross section, we need align-items: center, flex-end, baseline
+We can use align-self: center, end in any one of the boxes
+but we need to eliminate flex-wrap and align-content, they are connected
+or we can use order: 1(that box will be at the end), -1(at the beginning)-->

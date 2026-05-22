@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div id="container"> <!--Container - child of the body-->
+        <p>This is #1</p>
+                            <!--child of container-->
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p> <!--Descendant-->
+        </div>
+    </div>
+    <p>This is #4</p>
+                        <!--Silblings of the container, child of the body-->
+    <p>This is #5</p>
+
+    <a href="https://youtube.com">YouTube</a>
+    
+    <ul>
+        <li>This is #1</li>
+        <li>This is #2</li>
+        <li>This is #3</li>
+        <li>This is #4</li>
+        <li>This is #5</li>
+        <li>This is #6</li>
+        <li>This is #7</li>
+        <li>This is #8</li>
+        <li>This is #9</li>
+    </ul>
+
+    <div id="greeting">Hover here
+        <p>Hello</p>
+    </div>
+
+   
+</body>
+</html>
+
+<!--
+    combinators = explains yhe relationship between listed selectors
+                  = descendant (#container p)
+                > = child (#container > p)
+                ~ = general sibling (container ~ p)
+                + = adjacent sibling (container +p)
+                    next direct sibling but not all sibling
+-->
+
+<!--Pseudo classes(exmp: link), button edit
+a:link(color) will only be visible when the link is unvisited
+but once it's been visited, the color will be purple by default
+to change it we need a:visited
+
+li:nth-child(odd/even/7/8/2n)
+Hover will be helpful when we create drop-down menus-->

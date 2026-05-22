@@ -1,0 +1,103 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: rgb(136, 136, 126);
+}
+p::selection{
+    color: white;
+    background-color: rgb(48, 123, 48);
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✓";
+    color: rgb(255, 30, 0);
+    font-size: 1.2em;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(193, 166, 178);
+    color: brown;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(216, 193, 238);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: beige;
+}
+.dropdown a:hover{
+    background-color: rgb(235, 235, 162);
+}
+h2{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: gainsboro;
+}
+.navbar li{
+    float: left;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+    margin: 0px;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 2px;
+    width: 150px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+}
+.gallery img{
+    width: 100%;
+}

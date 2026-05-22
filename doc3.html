@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div id="div1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corrupti magni atque libero, consequatur facilis minima eaque repellendus nobis voluptates quia. Debitis officiis animi neque fuga libero nobis inventore sequi!</p>
+    </div>
+    <br>
+    <div id="div">div</div>
+    <span>span</span>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo aspernatur delectus nostrum temporibus odit eaque reprehenderit, numquam est tempora error ullam cum iusto minus, provident quaerat laborum quam suscipit at.
+    <br><br>
+    <div class="container">
+        <div class="box">
+            <h2>This is one</h2>
+        </div>
+        <div class="box">
+            <h2>This is two</h2>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--overflow = property that sets the desired 
+behavior when content does not fit in the parent element box
+overflow: visible
+overflow: hidden
+overflow: clip 
+overflow: scroll
+overflow: auto
+visible is what we see by default(overflowing)
+clip is similar to hidden
+we can set overflow-clip-margin to set how far this content displays or overflows outside the box
+auto works like scroll too, 
+but doesn't show scroll button when not needed-->
+
+<!--
+display = property specifies if/how an element is displayed
+
+block-level = start on a new line, take up the full width available
+              (h1, div, p, form, header, footer)
+
+inline = do not start on a new line, width is limited to what is needed
+         (span, a, img)
+By using display we can make div/span contain only line using inline or span/div contain block using block in display
+if span is not being blocked by using display, height or weight properties can't be applied
+display: none will effectively erase that elements inside div or span as if it's gone
+the property visibility is fairly similar to dispaly
+visibility hidden will occupy that space but basically make the elements invisible-->
+
+<!--Float doesn't work if we set border
+padding applies between the content and border
+when calculating the height or the width we can disregard any padding or any borders 
+but we have to add this property: box-sizing: border-box, this will take that into consideration
+Now the box can fit next to each other even though there is a border property-->
+
+<!--Without container class, minimum height will be of no use in box class elements
+even though we set max height 50%, we don't need the 50% space, as we don't have enough content
+If i need the boxex to take up at least 50% of the height i would use min height-->
+
+<!--Height & Width-->

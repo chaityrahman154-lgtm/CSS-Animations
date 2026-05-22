@@ -1,0 +1,35 @@
+#div1{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+#div{
+    background-color: hsl(33, 100%, 88%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+span{
+    background-color: hsl(310, 59%, 92%);
+    width: 100px;
+    height: 100px;
+    display: block;  
+    visibility: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(165, 154, 154);
+    height: 100vh;
+}
+.box{
+ 
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: right;
+    text-align: center;
+    max-height: 50%;
+}

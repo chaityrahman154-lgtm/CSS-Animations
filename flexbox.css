@@ -1,0 +1,61 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 0px;
+}
+.fa-solid.fa-house.fa-2xl{
+    color: hsl(0, 0%, 66%);
+}
+.fa-solid.fa-house.fa-2xl:hover{
+    color: hsl(0, 0%, 76%);
+}
+.fa-brands.fa-twitter.fa-2xl{
+    color: hsl(188, 54%, 54%);
+}
+.fa-brands.fa-twitter.fa-2xl:hover{
+    color: hsl(188, 100%, 60%);
+}
+.fa-brands.fa-youtube.fa-2xl{
+    color: hsl(0, 100%, 50%)
+}
+.fa-brands.fa-youtube.fa-2xl:hover{
+    color: hsl(0, 100%, 60%)
+}
+.fa-brands.fa-tiktok.fa-2xl{
+    color: hsl(0, 0%, 20%)
+}
+.fa-brands.fa-tiktok.fa-2xl:hover{
+    color: hsl(0, 0%, 30%)
+}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: space-between;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 7em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: hsl(0, 100%, 70%);
+    align-self: center;
+}
+#box2{
+    background-color: hsl(52, 100%, 70%);
+}
+#box3{
+    background-color: hsl(111, 100%, 70%);
+}
+#box4{
+    background-color: hsl(193, 81%, 50%);
+}
